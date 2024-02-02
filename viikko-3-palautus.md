@@ -20,5 +20,11 @@ Ensiksi asensin Apache-weppipalvelimen "sudo apt install apache2" komennolla kom
 
 ![Add file: Upload](weppipalvelin.png)
 
+### B)
+
+Seuraavaksi tarkastelin komennolla "cat /var/log/apache2/access.log" lokin rivejä:
+
+
+
 
 
