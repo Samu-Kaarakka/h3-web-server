@@ -18,5 +18,7 @@ Karvinen, Tero. Name Based Virtual Hosts on Apache – Multiple Websites to Sing
 ### A) 
 Ensiksi asensin Apache-weppipalvelimen "sudo apt install apache2" komennolla komentorivillä. Seuraavaksi testasin, että weppipalvelimeni vastaa localhost-osoitteesta:
 
+![Add file: Upload](weppipalvelin.png)
+
 
 
