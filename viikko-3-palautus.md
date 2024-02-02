@@ -15,3 +15,8 @@
 https://httpd.apache.org/docs/2.4/vhosts/name-based.html 
 Karvinen, Tero. Name Based Virtual Hosts on Apache – Multiple Websites to Single IP Address. Luettu 02.02.2004. Luettavissa: https://terokarvinen.com/2018/04/10/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/ 
 
+### A) 
+Ensiksi asensin Apache-weppipalvelimen "sudo apt install apache2" komennolla komentorivillä. Seuraavaksi testasin, että weppipalvelimeni vastaa localhost-osoitteesta:
+
+
+
