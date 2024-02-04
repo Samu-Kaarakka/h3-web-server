@@ -58,6 +58,12 @@ Lopuksi testasin vielä, että sivu toimii sekä halutut tulostukset tulostuvat:
 
 ![Add file: Upload](selain-testi.png)
 
+### F)Curl-komento
+
+Komennolla "curl-I local host" HTTP-vastauksen otsakkeet localhost-osoitteesta:
+
+
+
 
 
 
