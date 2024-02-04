@@ -62,6 +62,12 @@ Lopuksi testasin vielä, että sivu toimii sekä halutut tulostukset tulostuvat:
 
 Komennolla "curl-I local host" HTTP-vastauksen otsakkeet localhost-osoitteesta:
 
+![Add file: Upload](curl-i.png)
+
+* Kohta "HTTP/1.1 200 OK": kertoo, että pyyntö onnistui
+* Content-Type: text/html: kertoo vastauksen sisällön
+* ETag: "28-6108d531e40bb: Tämä kohta oli mysteeri, joten tarkistin verkosta asian laidan. Kyseessä on uniikki tunniste kyseiselle tiedostolle/resurssille
+
 
 
 
