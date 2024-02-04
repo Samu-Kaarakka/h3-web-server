@@ -48,6 +48,10 @@ Lopuksi kokeilin vielä, että sivu näkyy palvelimen etusivulla niinkuin pitä�
 
 ![Add file: Upload](local-host.png)
 
+### D)HTML-sivu
+
+
+
 
 
 
