@@ -50,6 +50,14 @@ Lopuksi kokeilin vielä, että sivu näkyy palvelimen etusivulla niinkuin pitä�
 
 ### D)HTML-sivu
 
+Tässä tehtävässä tein todella yksinkertaisen html-sivuston. Komennolla "nano$HOME/testisivu.html" loin kotihakemistooni uuden HTML-tiedoston nimeltä testisivu.html, nano tekstieditorissa annoin kuvan mukaiset aseutukset:
+
+![Add file: Upload](html.png)
+
+Lopuksi testasin vielä, että sivu toimii sekä halutut tulostukset tulostuvat: 
+
+![Add file: Upload](selain-testi.png)
+
 
 
 
