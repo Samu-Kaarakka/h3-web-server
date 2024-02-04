@@ -33,6 +33,19 @@ Seuraavaksi tarkastelin komennolla "cat /var/log/apache2/access.log" lokin rivej
 * Kohta 5: 3380: Vastauksen koko tavuina
 * Kohta 6: "Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0": Näyttää tiedot selaimesta ja käyttöjärjestelmästä eli tässä tapauksessa selain oli Firefox ja käyttöjärjestelmä Linux
 
+### C) Etusivu uusiksi
+
+Komennolla "$ sudoedit /etc/apache2/sites-available/hattu.example.com.conf" avasin hattu.example.com.conf- tiedoston nanotekstieditorissa sekä lisäsin alla olevan kuvan mukaiset konfiguraatiot tiedostoon:
+
+![Add file: Upload](conf-tiedosto.png)
+
+* 1. <VirtualHost :*80>: Tämä kohta määrittelee virtuaalipalveimen, joka vastaa saapuviin HTTP-pyyntöihin portissa 80
+* 2. "ServerName hattu.example.com": Tämä kohta on virtuaalipalvelimen pääasiallinen verkkotunnus
+* 3. "ServerAlias www.hattu.example.com": Vaihtoehtoinen verkkotunnus, tämä kohta mahdollistaa sen, että esimerkiksi "www.hattu.example.com" sekä "hattu.example.com" osoittavat samaan verkkosivustoon
+
+Tärkeää oli myös "Require all granted" tiedoston konfiguraatioon, jotta kaikki käyttäjille sallitaan pääsy.
+
+
 
 
 
