@@ -39,9 +39,9 @@ Komennolla "$ sudoedit /etc/apache2/sites-available/hattu.example.com.conf" avas
 
 ![Add file: Upload](conf-tiedosto.png)
 
-* 1. <VirtualHost :*80>: Tämä kohta määrittelee virtuaalipalveimen, joka vastaa saapuviin HTTP-pyyntöihin portissa 80
-* 2. "ServerName hattu.example.com": Tämä kohta on virtuaalipalvelimen pääasiallinen verkkotunnus
-* 3. "ServerAlias www.hattu.example.com": Vaihtoehtoinen verkkotunnus, tämä kohta mahdollistaa sen, että esimerkiksi "www.hattu.example.com" sekä "hattu.example.com" osoittavat samaan verkkosivustoon
+* Kohta 1. <VirtualHost :*80>: Tämä kohta määrittelee virtuaalipalveimen, joka vastaa saapuviin HTTP-pyyntöihin portissa 80
+* Kohta 2. "ServerName hattu.example.com": Tämä kohta on virtuaalipalvelimen pääasiallinen verkkotunnus
+* Kohta 3. "ServerAlias www.hattu.example.com": Vaihtoehtoinen verkkotunnus, tämä kohta mahdollistaa sen, että esimerkiksi "www.hattu.example.com" sekä "hattu.example.com" osoittavat samaan verkkosivustoon
 
 Tärkeää oli myös "Require all granted" tiedoston konfiguraatioon, jotta kaikki käyttäjille sallitaan pääsy.
 
