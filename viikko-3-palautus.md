@@ -43,7 +43,10 @@ Komennolla "$ sudoedit /etc/apache2/sites-available/hattu.example.com.conf" avas
 * Kohta 2. "ServerName hattu.example.com": Tämä kohta on virtuaalipalvelimen pääasiallinen verkkotunnus
 * Kohta 3. "ServerAlias www.hattu.example.com": Vaihtoehtoinen verkkotunnus, tämä kohta mahdollistaa sen, että esimerkiksi "www.hattu.example.com" sekä "hattu.example.com" osoittavat samaan verkkosivustoon
 
-Tärkeää oli myös "Require all granted" tiedoston konfiguraatioon, jotta kaikki käyttäjille sallitaan pääsy.
+Tärkeää oli myös "Require all granted" tiedoston konfiguraatioon, jotta kaikki käyttäjille sallitaan pääsy. 
+Lopuksi kokeilin vielä, että sivu näkyy palvelimen etusivulla niinkuin pitääkin: 
+
+![Add file: Upload](local-host.png)
 
 
 
